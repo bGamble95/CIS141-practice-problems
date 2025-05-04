@@ -1,1 +1,6 @@
-
+nbr1 = int(input("Enter first number"))
+nbr2 = int(input("Enter second number"))
+print(nbr1+nbr2)
+print(nbr1-nbr2)
+print(nbr1*nbr2)
+print(nbr1/nbr2)
