@@ -19,5 +19,5 @@ words_count = {word: 0 for word in words_search}
 for word in lyrics:
     if word in words_count:
         words_count[word] += 1
-print("\nWord Count:")
+print("Word Count:")
 print(words_count)
