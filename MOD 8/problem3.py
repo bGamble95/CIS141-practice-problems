@@ -11,7 +11,7 @@ lyrics = file.read().lower().split()
 
 words_search = []
 for i in range(5):
-    word = input(f"Enter word {i+1} to count: ").lower()
+    word = input(f"Enter word {i+1} to count: ")
     words_search.append(word)
 
 words_count = {word: 0 for word in words_search}
